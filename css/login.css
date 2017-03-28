@@ -12,8 +12,7 @@ input{background:transparent;-webkit-appearance:none;appearance:none;outline:non
 .setPassWord .inputBox{position:relative;margin-bottom:.3rem;}
 .setPassWord input{vertical-align:top;padding:.27rem .1rem;width:5.6rem;height:.34rem;border:1px solid #e5e5e5;border-radius: .1rem;font-size:.32rem;background:#fff;}
 .setPassWord p{position:absolute;bottom:-0.1rem;color:#ff0000;font-size:.24rem;}
-.setPassWord .register,.setPassWord .next{margin-top:.66rem;width:5.8rem;height:.88rem;line-height:.88rem;background:#00cdaa;text-align: center;font-size:.32rem;border-radius:.1rem;}
-.setPassWord .register a,.setPassWord .next a{color:#fff;text-decoration: none;}
+.setPassWord .register a,.setPassWord .next a{display:inline-block;margin-top:.66rem;width:5.8rem;height:.88rem;line-height:.88rem;color:#fff;background:#00cdaa;text-align: center;font-size:.32rem;border-radius:.1rem;}
 /*注册页样式*/
 .registerPage .phoneNum input[type=tel]{width:3.57rem;}
 .registerPage .phoneNum a{vertical-align:top;display:inline-block;width:1.62rem;height:.88rem;line-height:.88rem;text-align:center;font-size:.24rem;color:#fff;background:#00cdaa;border-radius:.1rem;}
