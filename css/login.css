@@ -1,0 +1,31 @@
+*{margin:0;padding:0;}
+html{font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif}
+body{height:100%;background:#eefffc;}
+ul{list-style: none;}
+img{border:none;}
+a{text-decoration: none;}
+input{background:transparent;-webkit-appearance:none;appearance:none;outline:none;  -webkit-tap-highlight-color:rgba(0,0,0,0);}
+/*以上为清楚默认值*/
+.bigBox{padding: 0 .3rem 0;}
+.logo{position:relative;height:3.78rem;/*line-height:3.78rem;*/text-align: center;}
+.logo img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;width:1.13rem;height:1.44rem;}
+.setPassWord .inputBox{position:relative;margin-bottom:.3rem;}
+.setPassWord input{vertical-align:top;padding:.27rem .1rem;width:5.6rem;height:.34rem;border:1px solid #e5e5e5;border-radius: .1rem;font-size:.32rem;background:#fff;}
+.setPassWord p{position:absolute;bottom:-0.1rem;color:#ff0000;font-size:.24rem;}
+.setPassWord .register,.setPassWord .next{margin-top:.66rem;width:5.8rem;height:.88rem;line-height:.88rem;background:#00cdaa;text-align: center;font-size:.32rem;border-radius:.1rem;}
+.setPassWord .register a,.setPassWord .next a{color:#fff;text-decoration: none;}
+/*注册页样式*/
+.registerPage .phoneNum input[type=tel]{width:3.57rem;}
+.registerPage .phoneNum a{vertical-align:top;display:inline-block;width:1.62rem;height:.88rem;line-height:.88rem;text-align:center;font-size:.24rem;color:#fff;background:#00cdaa;border-radius:.1rem;}
+
+/*注册成功样式开始*/
+.login_successful{margin-top:2.94rem;}
+.login_successful img{padding-left:.4rem;width:2.14rem;height:1.65rem;}
+.login_successful p{font-size:.34rem;color:#00cdaa;text-align: center;}
+.login_successful p.successText{margin-top:.3rem;}
+/*注册成功样式结束*/
+/*宣传页样式开始*/
+.propaganda{position:relative;width:6.4rem;height:100%;}
+.propaganda img{width:100%;height:100%;}
+.propaganda p a{margin-left:1.64rem;position:absolute;bottom:3.46rem;display:inline-block;width:3.07rem;height:.67rem;line-height:.62rem;text-align: center;color:#ff6d01;font-size:.28rem;background:url("../images/btnbg.png") no-repeat;background-size:cover;}
+/*宣传页样式结束*/
