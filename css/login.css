@@ -3,7 +3,7 @@ html{font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB
 body{height:100%;background:#eefffc;}
 ul{list-style: none;}
 img{border:none;}
-a{text-decoration: none;outline:0;}
+a{text-decoration: none;outline:none;}
 input{background:transparent;-webkit-appearance:none;appearance:none;outline:none;  -webkit-tap-highlight-color:rgba(0,0,0,0);}
 /*以上为清楚默认值*/
 .bigBox{padding: 0 .3rem 0;}
